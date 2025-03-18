@@ -65,3 +65,8 @@ body{
     text-align: center;
     font-size: 1.2em;
 }
+.temperature{
+    font-weight: 500;
+    font-size: 100px;
+    color: var(--white);
+}
