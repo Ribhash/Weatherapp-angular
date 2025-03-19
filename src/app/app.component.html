@@ -9,8 +9,8 @@
     <img src="../assets/night.png" alt="night">
    }
     <div class="weather-data">
-      <div class="location">Kathmandu</div>
-      <div class="temperature">{{13.6 | number: '1.0-0'}}°</div>
+      <div class="location">Lalitpur</div>
+      <div class="temperature">{{16 | number: '1.0-0'}}°</div>
     </div>
   </div>
   <div class="lowerdata">
@@ -20,16 +20,48 @@
   <div class="more-info-container">
     <div class="info-block">
       <div class="info-block-label">
-        <img src="../assets/cold.png"  alt="min-temp">
-        <span>min</span>
+        <img src="../assets/hot.png"  alt="max-temp">
+        <span>max</span>
       </div>
       <div class="info-block-value">
-        9
+        27°C
+      </div>
+    </div>
+    
+    
+        
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/cold.png"  alt="min-temp">
+            <span>min</span>
+          </div>
+          <div class="info-block-value">
+            9°C
+          </div>
+        </div>
+      
+    <div class="info-block">
+      <div class="info-block-label">
+        <img src="../assets/humidity.png"  alt="humidity">
+        <span>humidity</span>
+      </div>
+      <div class="info-block-value">
+        29%
+      </div>
+    </div>
+    <div class="info-block">
+      <div class="info-block-label">
+        <img src="../assets/wind.png"  alt="wind">
+        <span>wind</span>
+      </div>
+      <div class="info-block-value">
+        3km/hr
       </div>
     </div>
    
-  </div>
-  </div>
+  
 </div>
+  </div>
+
 
 <router-outlet></router-outlet>
